@@ -1,5 +1,4 @@
 #include <EEPROM.h>
-
 void setup() {
   // Inicjalizacja połączenia z EEPROM
   EEPROM.begin();
@@ -12,4 +11,6 @@ void setup() {
   // Zakończenie połączenia z EEPROM
   EEPROM.end();
 }
-
+void loop(){
+  
+}
